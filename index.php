@@ -26,7 +26,7 @@
           //console.log(id);
           images[id]=1;
           //console.log(images[id]);
-          if(id <10)
+          if(id <11)
           {
             images[str]=1;
             console.log(id);
@@ -36,6 +36,7 @@
             console.log(id);
             images[id]=0;
           }
+          
 
           //$("#grid").append(' <img class= \"img-responsive pull-left\" src=\"./media/' +link+ ' \" >');
           //$("#grid").append(' <a style =\"background-image:url(\"./media/' +link+ ' \"); height:150px; width=150px \"> </a>');
