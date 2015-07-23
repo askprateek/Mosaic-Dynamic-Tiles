@@ -8,7 +8,16 @@
 <body>
   <div class="mosaic" id="grid">
     <ul id="list">
-
+      <li><img src="./media/1.png "></li>
+      <li><img src="./media/2.png "></li>
+      <li><img src="./media/3.png "></li>
+      <li><img src="./media/4.png "></li>
+      <li><img src="./media/5.png "></li>
+      <li><img src="./media/6.png "></li>
+      <li><img src="./media/7.png "></li>
+      <li><img src="./media/8.png "></li>
+      <li><img src="./media/9.png "></li>
+      <li><img src="./media/10.png "></li>
     </ul>
   </div>
   <script>
@@ -32,7 +41,7 @@
           {
             images[str]=1;
             console.log(id);
-            $("#grid ul").append('<li><img src=\"./media/'+id+'.png \">');
+            //$("#grid ul").append('<li><img src=\"./media/'+id+'.png \">');
           }
           else{
             console.log(id);
@@ -49,11 +58,9 @@ function swap(){
   console.log(a);
   var select = $('#list li:nth-child(a) img').attr('src');
   console.log(select);
-  //$("#grid:li:nth-child(a) ").html("/lol");
 }
 
-
-  });
+});
 
 </script>
 </body>
